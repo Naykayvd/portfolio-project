@@ -9,20 +9,25 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="navigation.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="work.css" />
+    <link rel="stylesheet" href="skills.css" />
     <title>Nahum's Portfolio</title>
   </head>
   <body>
+    <!-- navigation bar -->
+
     <div class="landing">
       <nav class="navbar">
         <ul class="navbar-container">
           <li>
-            <a href="#" class="nav-link">About Me</a>
+            <a href="#about_me" class="nav-link">About Me</a>
           </li>
           <li>
-            <a href="#" class="nav-link">Work Experience</a>
+            <a href="#work_experience" class="nav-link">Work Experience</a>
           </li>
           <li>
-            <a href="#" class="nav-link">Skills</a>
+            <a href="#skills" class="nav-link">Skills</a>
           </li>
           <li>
             <a href="#" class="nav-link">Projects</a>
@@ -35,14 +40,17 @@
           </li>
         </ul>
       </nav>
+      <!-- My profile -->
       <div>
-        <p class="profile-name">Nahum Van Diemen</p>
-        <p class="profile-job">Aspiring Web Developer</p>
+        <p class="profile-name">Nahum <span class="p-j-c">Van Diemen</span></p>
+        <p class="profile-job">
+          Aspiring <span class="p-j-c">Web Developer</span>
+        </p>
         <dl class="profile-details">
           <dt>Age:</dt>
           <dd>22</dd>
           <dt>Phone:</dt>
-          <dd>0723955815</dd>
+          <dd><a class="phone" href="tel:0723955815">0723955815</a></dd>
           <dt>Email:</dt>
           <dd>
             <a class="email" href="mailto:vandiemennahum@gmail.com"
@@ -55,34 +63,78 @@
           <button>
             <i class="fab fa-linkedin"></i>
           </button>
+          <img
+            class="img-of-me"
+            src="./573ccec8ebaa93eca57e133348a776df.jpg"
+            height="300"
+            width="300"
+            alt=""
+          />
         </dl>
       </div>
     </div>
-    <div class="bio">
-      <h2>About me</h2>
-      <p>
-        I am junior web developer based in Cape Town South Africa, I am always
-        learning and striving to improve daily life and make living a little
-        easier through technology.
-      </p>
+    <!-- The about me section -->
+    <div class="bio" id="about_me">
+      <span class="line1"></span>
+      <div class="bio-text-container">
+        <h2 class="bio-heading">About me</h2>
+        <p class="bio-text1">
+          I am junior web developer based in Cape Town South Africa, I am always
+          learning and striving to improve daily life and to make daily living a
+          little easier through technology.
+        </p>
+        <p class="bio-text2">
+          My love for the tech industry began with my love of playing video
+          games and from there it trickled down to following the latest tech
+          trends and keeping up with current devices. While also having an
+          appreciation for legacy devices that have paved the way for future
+          advancements.
+        </p>
+        <p class="bio-text3">
+          My hobbies are music I play piano, I enjoy playing video games and
+          just trying new things I have not tried before. I like forcing myself
+          out of my comfort zone
+        </p>
+      </div>
+      <span class="line2"></span>
     </div>
-    <div class="work">
-      <div>
-        <h1>Work Experience</h1>
-        <h2>Bytes People Solutions<span>Technical support</span></h2>
-        <h3>2019-2020</h3>
+    <!-- Work experience section -->
+    <div class="bio">
+      <span class="line3"></span>
+      <div class="bio-text-container">
+        <h1 id="work_experience" class="bio-heading">Work Experience</h1>
+        <h2 class="company">
+          Company Name:
+          <span class="company-name">Bytes people Solutions</span>
+        </h2>
+        <h3>Position held: <span>Technical support</span></h3>
+        <h4 class="year">2019-2020</h4>
         <p>
           I completed a Technical support learnership through the company, 4
           months of class work and 8 months of work experince.
         </p>
-        <h2>Life choices academy<span>student</span></h2>
-        <h3>2021-current</h3>
+        <h2 class="company">
+          Company Name: <span class="company-name">Life choices academy</span>
+        </h2>
+        <h3>Position held: <span>Student</span></h3>
+        <h4 class="year">2021-current</h4>
         <p>
           I am currently doing a coding and web development course at life
           choices academy which includes 6 months of class work and 6 months
           work experience
         </p>
       </div>
+      <span class="line4"></span>
+    </div>
+    <div id="skills" class="skills-container">
+      <h1>Skills</h1>
+      <h2 class="skills-heading">My skills include:</h2>
+      <li>HTML</li>
+      <li>Python</li>
+      <li>CSS</li>
+      <li>Windows</li>
+      <li>MS word</li>
+      <li>MS Excel</li>
     </div>
     <script src="animation.js"></script>
   </body>
