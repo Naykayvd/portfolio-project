@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="work.css" />
     <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="projects.css" />
     <title>Nahum's Portfolio</title>
   </head>
   <body>
@@ -30,7 +31,7 @@
             <a href="#skills" class="nav-link">Skills</a>
           </li>
           <li>
-            <a href="#" class="nav-link">Projects</a>
+            <a href="#projects" class="nav-link">Projects</a>
           </li>
           <li>
             <a href="#" class="nav-link">Testimonials</a>
@@ -43,9 +44,7 @@
       <!-- My profile -->
       <div>
         <p class="profile-name">Nahum <span class="p-j-c">Van Diemen</span></p>
-        <p class="profile-job">
-          Aspiring <span class="p-j-c">Web Developer</span>
-        </p>
+        <p class="profile-job">Aspiring <span class="p-j-c">Developer</span></p>
         <dl class="profile-details">
           <dt>Age:</dt>
           <dd>22</dd>
@@ -57,15 +56,15 @@
               >vandiemennahum@gmail.com</a
             >
           </dd>
-          <button>
+          <button class="my-links">
             <i class="fab fa-github"></i>
           </button>
-          <button>
+          <button class="my-links">
             <i class="fab fa-linkedin"></i>
           </button>
           <img
             class="img-of-me"
-            src="./573ccec8ebaa93eca57e133348a776df.jpg"
+            src="images/573ccec8ebaa93eca57e133348a776df.jpg"
             height="300"
             width="300"
             alt=""
@@ -99,10 +98,10 @@
       <span class="line2"></span>
     </div>
     <!-- Work experience section -->
-    <div class="bio">
+    <div class="bio" id="work_experience">
       <span class="line3"></span>
       <div class="bio-text-container">
-        <h1 id="work_experience" class="bio-heading">Work Experience</h1>
+        <h1>Work Experience</h1>
         <h2 class="company">
           Company Name:
           <span class="company-name">Bytes people Solutions</span>
@@ -126,15 +125,88 @@
       </div>
       <span class="line4"></span>
     </div>
-    <div id="skills" class="skills-container">
+    <div id="skills"></div>
+    <div class="skills-container">
       <h1>Skills</h1>
       <h2 class="skills-heading">My skills include:</h2>
-      <li>HTML</li>
-      <li>Python</li>
-      <li>CSS</li>
-      <li>Windows</li>
-      <li>MS word</li>
-      <li>MS Excel</li>
+      <div class="skill-icons">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-python"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-windows"></i>
+        <i class="fas fa-file-word"></i>
+        <i class="fas fa-file-excel"></i>
+      </div>
+    </div>
+    <div id="projects"></div>
+    <div class="projects-container">
+      <h1 class="project-heading">Projects</h1>
+      <div class="project-card">
+        <div class="card1">
+          <h2>BMI Converter</h2>
+          <img class="project-image" src="images/bmi-converter.png" alt="" />
+          <p>
+            A programme that takes your weight, age, height and gender as input
+            and outputs your BMI and your ideal BMI
+          </p>
+          <href href="https://github.com/Naykayvd/tkinter-BMI-calculator"
+            ><button class="project-button">Github</button></href
+          >
+          <a href="https://replit.com/@Naykayvd/BMI-converter"
+            ><button class="project-button">Replit</button></a
+          >
+        </div>
+        <div class="card2">
+          <h2>Contact Form</h2>
+          <img
+            class="project-image"
+            src="images/contact form.png"
+            alt="an image of my contact form website"
+          />
+          <p>A simple contact form website</p>
+          <a href="https://github.com/Naykayvd/html-contact_forms"
+            ><button class="project-button">Github</button></a
+          >
+          <a href="https://confident-cori-e1e7c8.netlify.app/"
+            ><button class="project-button">Live</button></a
+          >
+        </div>
+        <div class="card3">
+          <h2>Timeline site</h2>
+          <img
+            class="project-image"
+            src="images/timeline.png"
+            alt="an image of my pop-in-out animation website"
+          />
+          <p>
+            While learning web development I was trying out pop-in pop-out
+            animations and made this simple website
+          </p>
+          <a href="https://github.com/Naykayvd/html-css--timeline"
+            ><button class="project-button">Github</button></a
+          >
+          <a href="https://sleepy-easley-712209.netlify.app/"
+            ><button class="project-button">Live</button></a
+          >
+        </div>
+        <div class="card4">
+          <h2>Slider animation site</h2>
+          <img
+            class="project-image"
+            src="images/testimonial.png"
+            alt="an image of my slider website"
+          />
+          <p>
+            I was learning animations and decided to try out slider animation
+          </p>
+          <a href="https://github.com/Naykayvd/HTML-Testimonial-sliders"
+            ><button class="project-button">Github</button></a
+          >
+          <a href="https://naughty-villani-0c2706.netlify.app"
+            ><button class="project-button">Live</button></a
+          >
+        </div>
+      </div>
     </div>
     <script src="animation.js"></script>
   </body>
