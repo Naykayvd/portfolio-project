@@ -20,29 +20,36 @@
   <body>
     <!-- navigation bar -->
 
+    <nav class="navbar">
+      <ul class="navbar-container">
+        <li>
+          <a href="#about_me" class="nav-link">About Me</a>
+        </li>
+        <li>
+          <a href="#work_experience" class="nav-link">Work Experience</a>
+        </li>
+        <li>
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li>
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
     <div class="landing">
-      <nav class="navbar">
-        <ul class="navbar-container">
-          <li>
-            <a href="#about_me" class="nav-link">About Me</a>
-          </li>
-          <li>
-            <a href="#work_experience" class="nav-link">Work Experience</a>
-          </li>
-          <li>
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li>
-            <a href="#projects" class="nav-link">Projects</a>
-          </li>
-          <li>
-            <a href="#testimonials" class="nav-link">Testimonials</a>
-          </li>
-          <li>
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <img
+        class="img-of-me"
+        src="images/20210511_130541-removebg-preview.png"
+        height="600"
+        width="400"
+        alt="image of me"
+      />
       <!-- My profile -->
       <div>
         <p class="profile-name">Nahum <span class="p-j-c">Van Diemen</span></p>
@@ -64,13 +71,6 @@
           <button class="my-links">
             <i class="fab fa-linkedin"></i>
           </button>
-          <img
-            class="img-of-me"
-            src="images/573ccec8ebaa93eca57e133348a776df.jpg"
-            height="300"
-            width="300"
-            alt=""
-          />
         </dl>
       </div>
     </div>
@@ -220,7 +220,7 @@
       <!-- testimonials -->
       <div id="testimonials"></div>
       <div class="slider-container">
-        <h1>Testimonials</h1>
+        <h1 class="testimonial-heading">Testimonials</h1>
         <div class="slider">
           <div class="witness-name">Godwin Dzvapatsva</div>
           <img src="images/Godwin.png" alt="image of Godwin" />
@@ -297,42 +297,47 @@
             >vandiemennahum@gmail.com</a
           >
         </dd>
+        <form
+          action="https://formspree.io/f/xdoykbkd"
+          method="POST"
+          id="contact"
+        >
+          <h2 class="form-heading">Or write me a letter here</h2>
+          <div>
+            <label class="contact-label">Name</label>
+            <input
+              class="contact-input"
+              type="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div>
+            <label class="contact-label">Email</label>
+            <input
+              class="contact-input"
+              type="email"
+              name="email"
+              placeholder="YourName@domain.com"
+              required
+            />
+          </div>
+          <div>
+            <label class="contact-label">Your Message</label>
+            <textarea
+              name="message"
+              id="contact-text"
+              class="contact-input"
+              placeholder="Type your message here"
+            ></textarea>
+          </div>
+          <button class="send-button" type="submit">Send</button>
+        </form>
       </div>
-
-      <form action="https://formspree.io/f/xdoykbkd" method="POST" id="contact">
-        <h2 class="form-heading">Or write me a letter here</h2>
-        <div>
-          <label class="contact-label">Name</label>
-          <input
-            class="contact-input"
-            type="name"
-            name="name"
-            placeholder="Name"
-            required
-          />
-        </div>
-        <div>
-          <label class="contact-label">Email</label>
-          <input
-            class="contact-input"
-            type="email"
-            name="email"
-            placeholder="YourName@domain.com"
-            required
-          />
-        </div>
-        <div>
-          <label class="contact-label">Your Message</label>
-          <textarea
-            name="message"
-            id="contact-text"
-            class="contact-input"
-            placeholder="Type your message here"
-          ></textarea>
-        </div>
-        <button class="contact-input send-button" type="submit">Send</button>
-      </form>
-      <footer>Nahum Van Diemen 2021</footer>
+      <div>
+        <footer>Nahum Van Diemen 2021</footer>
+      </div>
     </div>
     <script src="animation.js"></script>
   </body>
