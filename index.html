@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="work.css" />
     <link rel="stylesheet" href="skills.css" />
     <link rel="stylesheet" href="projects.css" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="testimonial.css" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Nahum's Portfolio</title>
   </head>
   <body>
@@ -38,7 +39,7 @@
             <a href="#testimonials" class="nav-link">Testimonials</a>
           </li>
           <li>
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
       </nav>
@@ -167,7 +168,7 @@
         </div>
         <div class="card2">
           <h2>Contact Form</h2>
-          <p>A simple contact form website</p>
+          <p class="project-text">A simple contact form website</p>
           <img
             class="project-image"
             src="images/contact form.png"
@@ -182,7 +183,7 @@
         </div>
         <div class="card3">
           <h2>Timeline site</h2>
-          <p>
+          <p class="project-text">
             While learning web development I was trying out pop-in pop-out
             animations and made this simple website
           </p>
@@ -200,7 +201,7 @@
         </div>
         <div class="card4">
           <h2>Slider animation site</h2>
-          <p>
+          <p class="project-text">
             I was learning animations and decided to try out slider animation
           </p>
           <img
@@ -219,16 +220,117 @@
       <!-- testimonials -->
       <div id="testimonials"></div>
       <div class="slider-container">
+        <h1>Testimonials</h1>
         <div class="slider">
           <div class="witness-name">Godwin Dzvapatsva</div>
           <img src="images/Godwin.png" alt="image of Godwin" />
-          <q
-            >Based on the time that I have known Nahum, he will measure up to
+          <q class="testimonial-text">
+            Based on the time that I have known Nahum, he will measure up to
             high organisational expectations. Nahum has shown strong passion in
             front-end development. Godwin-Head of Curriculum and Learning</q
           >
         </div>
+        <div class="slider">
+          <div class="witness-name">Abdur-Razaaq Jardien</div>
+          <img src="images/Abdur-Razaa Jardien (1).JPG" alt="image of abdur" />
+          <q class="testimonial-text">
+            Nahum is one of the most eager and enthusiastic people I know. He
+            puts his best into any task that needs to be accomplished and always
+            finishes each task with his boundless enthusiasm. He is an excellent
+            peer and is guaranteed to succeed in all of his
+            ventures.-Abdur-Razaaq(classmate)</q
+          >
+        </div>
+        <div class="slider">
+          <div class="witness-name">Brent Lee Johnson</div>
+          <img src="images/Brent Lee Johnson (3).JPG" alt="image of brent" />
+          <q class="testimonial-text"
+            >Nahum's judge of character will seem unique to others at first
+            sight, however, once you get to know him you will come to realise
+            how hard-working he is in terms of his work and his passion. Even if
+            he falls behind, he will come back the next day with double the
+            effort put in. I enjoyed having him work by my side giving me help
+            when he saw it necessary. Hats off to him.-Brent(classmate)</q
+          >
+        </div>
+        <div class="slider">
+          <div class="witness-name">Thapelo Tsotetsi</div>
+          <img src="images/thapelo-tsotetsi.jpg" alt="image of thapelo" />
+          <q class="testimonial-text"
+            >Nahum is an incredible student. He’s enthusiasm and ability to
+            learn new technologies is amazing. He has very good communication
+            skills. He always know when to ask questions especially when the
+            user requirement are not clear. He has very good intellectual
+            skills.-Thapelo(Back-end Lecturer)</q
+          >
+        </div>
+        <div class="slider">
+          <div class="witness-name">Naeemah Davis</div>
+          <img src="images/naeemah.jpg" alt="image of naeemah" />
+          <q class="testimonial-text"
+            >Nahum is a talented individual. Devoted student and a delight to
+            work with in every aspect of the word. Definitely a benefit in any
+            environment.-Naeemah(classmate)</q
+          >
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
+      <!-- Contact form -->
+
+      <div class="get-in-touch-details">
+        <h1 id="contact-heading">Get in touch</h1>
+        <dt>Phone:</dt>
+        <dd><a class="phone" href="tel:0723955815">0723955815</a></dd>
+        <dt>Email:</dt>
+        <dd>
+          <a class="email" href="mailto:vandiemennahum@gmail.com"
+            >vandiemennahum@gmail.com</a
+          >
+        </dd>
+      </div>
+
+      <form action="https://formspree.io/f/xdoykbkd" method="POST" id="contact">
+        <h2>Or write me a letter here</h2>
+        <div>
+          <label class="contact-label">Name</label>
+          <input
+            class="contact-input"
+            type="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+        </div>
+        <div>
+          <label class="contact-label">Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="YourName@domain.com"
+            required
+          />
+        </div>
+        <div>
+          <label class="contact-label">Your Message</label>
+          <textarea
+            name="message"
+            id="contact-text"
+            class="contact-input"
+            placeholder="Type your message here"
+          ></textarea>
+        </div>
+        <button class="contact-input" type="submit">Send</button>
+      </form>
     </div>
     <script src="animation.js"></script>
   </body>

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 5px solid #1c6ea4;
+  border-radius: 15px;
+  width: 45%;
+  float: right;
+  margin-right: 77px;
+}
+
+#contact-heading {
+  margin-top: 200px;
+  margin-bottom: 70px;
+  margin-left: 95px;
+  color: rgb(107, 107, 107);
+}
