@@ -5,19 +5,56 @@
 }
 
 #contact {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  border: 5px solid #1c6ea4;
-  border-radius: 15px;
-  width: 45%;
   float: right;
   margin-right: 77px;
 }
 
-#contact-heading {
+.get-in-touch-details {
+  font-weight: bold;
   margin-top: 200px;
   margin-bottom: 70px;
   margin-left: 95px;
   color: rgb(107, 107, 107);
+}
+
+#contact-heading {
+  margin-bottom: 40px;
+  color: rgb(107, 107, 107);
+}
+
+.contact-label {
+  display: flex;
+  justify-content: center;
+  color: rgb(107, 107, 107);
+}
+
+.contact-input {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #1c6ea4;
+  border-radius: 40px;
+  padding: 7px;
+  margin-bottom: 20px;
+}
+
+.form-heading {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  color: rgb(107, 107, 107);
+}
+
+footer {
+  font-style: italic;
+}
+
+.send-button {
+  margin-bottom: 20px;
+  padding: 5px;
+  transition: 0.5s ease-in-out;
+}
+
+.send-button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rosybrown;
 }
