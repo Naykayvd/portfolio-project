@@ -8,11 +8,11 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 40px;
 }
 
 .slider {
-  padding: 5% 5%;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   width: 87vw;
@@ -22,6 +22,7 @@
   -webkit-backdrop-filter: blur(5.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 150px;
 }
 
 .slider-container .slider img {
@@ -32,80 +33,21 @@
 }
 
 .testimonial-heading {
-  margin-bottom: 50px;
+  margin-left: 79px;
+  margin-top: 200px;
 }
 
 .witness-name {
   font-weight: bold;
-  margin-left: 500px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .testimonial-text {
-  float: right;
   margin-top: 30px;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: relative;
-  top: 50%;
-  margin-top: -22%;
-  padding: 16px;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease-in-out;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  border-radius: 3px 0 0 3px;
-}
-.prev:hover,
-.next:hover {
-  background-color: rgba(99, 0, 0, 0.8);
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: rgb(106, 106, 106);
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #000000;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+  display: flex;
+  float: right;
+  width: 50vw;
+  margin-left: 30px;
 }

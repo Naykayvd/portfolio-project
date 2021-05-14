@@ -13,7 +13,7 @@
   max-width: 40%;
   float: left;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .project-heading {
