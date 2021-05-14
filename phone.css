@@ -67,4 +67,17 @@
     flex-direction: column;
     width: 100vw;
   }
+
+  #contact-heading {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-label {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+  }
+  .contact-input {
+    margin-left: 50px;
+  }
 }
