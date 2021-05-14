@@ -10,7 +10,7 @@
 }
 
 .project-image {
-  max-width: 40%;
+  width: 40%;
   float: left;
   display: flex;
   flex-direction: row;
