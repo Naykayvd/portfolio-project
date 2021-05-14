@@ -1,0 +1,32 @@
+@media screen and (max-width: 800px) {
+  .img-of-me {
+    display: none;
+  }
+  .list-button {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background: none;
+  }
+  .navbar-container {
+    left: -100%;
+    transition: all 0.5s linear;
+    width: 30vw;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .navbar-container.active {
+    left: 0;
+  }
+  .skill-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 50px;
+  }
+
+  .slider-container {
+  }
+}
