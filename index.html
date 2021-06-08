@@ -35,31 +35,33 @@
 
     <nav class="navbar">
       <ul class="navbar-container">
-        <li>
-          <a href="#about_me" class="nav-link">About Me</a>
-        </li>
-        <li>
-          <a href="#work_experience" class="nav-link">Work Experience</a>
-        </li>
-        <li>
-          <a href="#skills" class="nav-link">Skills</a>
-        </li>
-        <li>
-          <a href="#projects" class="nav-link">Projects</a>
-        </li>
-        <li>
-          <a href="#testimonials" class="nav-link">Testimonials</a>
-        </li>
-        <li>
-          <a href="#contact" class="nav-link">Contact</a>
-        </li>
+        <div class="nav-nav">
+          <li>
+            <a href="#about_me" class="nav-link">About Me</a>
+          </li>
+          <li>
+            <a href="#work_experience" class="nav-link">Work Experience</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li>
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </div>
       </ul>
       <button class="list-button" onclick="toggleNav()"><i class="fas fa-bars"></i></button>
     </nav>
     <div class="landing">
       <img
         class="img-of-me"
-        src="images/20210511_130541-removebg-preview.png"
+        src=""
         height="600"
         width="400"
         alt="image of me"
@@ -67,10 +69,16 @@
       <!-- My profile -->
       <div>
         <p class="profile-name">Nahum <span class="p-j-c">Van Diemen</span></p>
-        <p class="profile-job">Aspiring <span class="p-j-c">Developer</span></p>
+        <p class="profile-job">Aspiring Full <span class="p-j-c">Stack Developer</span></p>
         <dl class="profile-details">
           <dt>Age:</dt>
           <dd>22</dd>
+          <dt>Languages:</dt>
+          <dd>English, Afrikaans</dd>
+          <dt>Address</dt>
+          <dd>Mitchells plain, Cape Town, 7798</dd>
+          <dt>Drivers License:</dt>
+          <dd>Code B</dd>
           <dt>Phone:</dt>
           <dd><a class="phone" href="tel:0723955815">0723955815</a></dd>
           <dt>Email:</dt>
@@ -79,12 +87,20 @@
               >vandiemennahum@gmail.com</a
             >
           </dd>
-          <button class="my-links">
+          <a href="https://github.com/Naykayvd">          
+            <button class="my-links">
             <i class="fab fa-github"></i>
           </button>
+          </a>
           <button class="my-links">
             <i class="fab fa-linkedin"></i>
+            <a href=""></a>
           </button>
+          <a href="https://codepen.io/naykayvd">
+            <button class="my-links">
+              <i class="fab fa-codepen"></i>
+            </button>
+          </a>
         </dl>
       </div>
     </div>
@@ -94,21 +110,13 @@
       <div class="bio-text-container">
         <h2 class="bio-heading">About me</h2>
         <p class="bio-text1">
-          I am junior web developer based in Cape Town South Africa, I am always
-          learning and striving to improve daily life and to make daily living a
-          little easier through technology.
+          I am an aspiring Junior Web Developer, based in Cape Town. I am always learning and striving to improve daily life through technology. 
         </p>
         <p class="bio-text2">
-          My love for the tech industry began with my love of playing video
-          games and from there it trickled down to following the latest tech
-          trends and keeping up with current devices. While also having an
-          appreciation for legacy devices that have paved the way for future
-          advancements.
+          My passion for the tech industry began with playing video games and from there it trickled down to following the latest tech trends and keeping up with current devices. I also have an  appreciation for legacy devices that have paved the way for future advancements
         </p>
         <p class="bio-text3">
-          My hobbies are music I play piano, I enjoy playing video games and
-          just trying new things I have not tried before. I like forcing myself
-          out of my comfort zone
+          My hobbies include music; I play piano, I enjoy playing video games and trying new things. I challenge myself to get out of my comfort zone.
         </p>
       </div>
       <span class="line2"></span>
@@ -152,9 +160,7 @@
         <i class="fab fa-html5"></i>
         <i class="fab fa-python"></i>
         <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-windows"></i>
-        <i class="fas fa-file-word"></i>
-        <i class="fas fa-file-excel"></i>
+        <i class="fab fa-js-square"></i>
       </div>
     </div>
     <!-- projects section -->
@@ -162,10 +168,10 @@
     <h1 class="project-heading">Projects</h1>
     <div class="projects-container">
       <div class="project-card">
-        <div class="card1">
+        <div class="card">
           <img
             class="project-image"
-            src="images/bmi-converter.png"
+            src="css/images/bmi-converter.png"
             alt="an image of the bmi converter"
           />
           <h2>BMI Converter</h2>
@@ -180,12 +186,12 @@
             ><button class="project-button">Replit</button></a
           >
         </div>
-        <div class="card2">
+        <div class="card">
           <h2>Contact Form</h2>
           <p class="project-text">A simple contact form website</p>
           <img
             class="project-image"
-            src="images/contact form.png"
+            src="css/images/contact form.png"
             alt="an image of my contact form website"
           />
           <a href="https://github.com/Naykayvd/html-contact_forms"
@@ -195,7 +201,7 @@
             ><button class="project-button">Live</button></a
           >
         </div>
-        <div class="card3">
+        <div class="card">
           <h2>Timeline site</h2>
           <p class="project-text">
             While learning web development I was trying out pop-in pop-out
@@ -203,7 +209,7 @@
           </p>
           <img
             class="project-image"
-            src="images/timeline.png"
+            src="css/images/timeline.png"
             alt="an image of my pop-in-out animation website"
           />
           <a href="https://github.com/Naykayvd/html-css--timeline"
@@ -220,7 +226,7 @@
           </p>
           <img
             class="project-image"
-            src="images/testimonial.png"
+            src="css/images/testimonial.png"
             alt="an image of my slider website"
           />
           <a href="https://github.com/Naykayvd/HTML-Testimonial-sliders"
@@ -230,32 +236,42 @@
             ><button class="project-button">Live</button></a
           >
         </div>
+        <div>
+          <h2>Easy Ticket task</h2>
+          <p class="project-text">A ticket purchase programme that takes in ammount of money, ticket quantity and prints out total amount</p>
+          <img class="project-image" src="" alt="image of easy ticket">
+          <a href="https://github.com/Naykayvd/Easy-Ticket"><button>Github</button></a>
+          <a href="https://replit.com/@Naykayvd/easy-ticket#main.py"><button>Replit</button></a>
+        </div>
+
       </div>
       <!-- testimonials -->
       <div id="testimonials"></div>
         <h1 class="testimonial-heading">Testimonials</h1>
         <div class="slider-container owl-carousel">
-        
-          <div class="slider">
+          <div class="slider fade">
             <div class="witness-name">Godwin Dzvapatsva</div>
+            <div class="witness-title">Head of Curriculum and Learning</div>
             <q class="testimonial-text">
               Based on the time that I have known Nahum, he will measure up to
               high organisational expectations. Nahum has shown strong passion in
-              front-end development. Godwin-Head of Curriculum and Learning</q
+              front-end development.</q
             >
           </div>
-          <div class="slider">
+          <div class="slider fade">
             <div class="witness-name">Abdur-Razaaq Jardien</div>
+            <div class="witness-title">Classmate</div>
             <q class="testimonial-text">
               Nahum is one of the most eager and enthusiastic people I know. He
               puts his best into any task that needs to be accomplished and always
               finishes each task with his boundless enthusiasm. He is an excellent
               peer and is guaranteed to succeed in all of his
-              ventures.-Abdur-Razaaq(classmate)</q
+              ventures.</q
             >
           </div>
-          <div class="slider">
+          <div class="slider fade">
             <div class="witness-name">Brent Lee Johnson</div>
+            <div class="witness-title">Classmate</div>
             <q class="testimonial-text"
               >Nahum's judge of character will seem unique to others at first
               sight, however, once you get to know him you will come to realise
@@ -265,7 +281,7 @@
               when he saw it necessary. Hats off to him.-Brent(classmate)</q
             >
           </div>
-          <div class="slider">
+          <div class="slider fade">
             <div class="witness-name">Thapelo Tsotetsi</div>
             <q class="testimonial-text"
               >Nahum is an incredible student. He’s enthusiasm and ability to
@@ -275,7 +291,7 @@
               skills.-Thapelo(Back-end Lecturer)</q
             >
           </div>
-          <div class="slider">
+          <div class="slider fade">
             <div class="witness-name">Naeemah Davis</div>
             <q class="testimonial-text"
               >Nahum is a talented individual. Devoted student and a delight to
@@ -283,6 +299,15 @@
               environment.-Naeemah(classmate)</q
               >
             </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
         </div>
       <!-- Contact form -->
 
@@ -341,24 +366,7 @@
     integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
     crossorigin="anonymous"
   ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous"
-  ></script>
-  <script>
-    $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        items: 1,
-        margin: 50,
-        loop: true,
-        stagePadding: 100,
-        dots: false,
-        autoplay: true,
-      });
-    });
-
-  </script>
     <script src="animation.js"></script>
+    <footer class="footer">Made by Nahum Van Diemen</footer>
   </body>
 </html>
