@@ -1,369 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/04cbc1650a.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/04cbc1650a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous"
-  />
-  <link
-    rel="stylesheet"
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous"
-  />
-    <link rel="stylesheet" href="css/navigation.css" />
-    <link rel="stylesheet" href="css/about.css" />
-    <link rel="stylesheet" href="css/work.css" />
-    <link rel="stylesheet" href="css/skills.css" />
-    <link rel="stylesheet" href="css/projects.css" />
-    <link rel="stylesheet" href="css/testimonial.css" />
-    <link rel="stylesheet" href="css/contact.css" />
-    <link rel="stylesheet" href="css/phone.css">
-    <title>Nahum's Portfolio</title>
-  </head>
-  <body>
-    <!-- navigation bar -->
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/navigation.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/work.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="stylesheet" href="css/testimonial.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/phone.css">
+  <title>Nahum's Portfolio</title>
+</head>
 
-    <nav class="navbar">
-      <ul class="navbar-container">
-        <div class="nav-nav">
-          <li>
-            <a href="#about_me" class="nav-link">About Me</a>
-          </li>
-          <li>
-            <a href="#work_experience" class="nav-link">Work Experience</a>
-          </li>
-          <li>
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li>
-            <a href="#projects" class="nav-link">Projects</a>
-          </li>
-          <li>
-            <a href="#testimonials" class="nav-link">Testimonials</a>
-          </li>
-          <li>
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-        </div>
-      </ul>
-      <button class="list-button" onclick="toggleNav()"><i class="fas fa-bars"></i></button>
-    </nav>
-    <div class="landing">
-      <img
-        class="img-of-me"
-        src=""
-        height="600"
-        width="400"
-        alt="image of me"
-      />
-      <!-- My profile -->
-      <div>
-        <p class="profile-name">Nahum <span class="p-j-c">Van Diemen</span></p>
-        <p class="profile-job">Aspiring Full <span class="p-j-c">Stack Developer</span></p>
-        <dl class="profile-details">
-          <dt>Date of birth:</dt>
-          <dd>21 October 1998</dd>
-          <dt>Languages:</dt>
-          <dd>English, Afrikaans</dd>
-          <dt>Address</dt>
-          <dd>Mitchells plain, Cape Town, 7798</dd>
-          <dt>Drivers License:</dt>
-          <dd>Code B</dd>
-          <dt>Phone:</dt>
-          <dd><a class="phone" href="tel:0723955815">0723955815</a></dd>
-          <dt>Email:</dt>
-          <dd>
-            <a class="email" href="mailto:vandiemennahum@gmail.com"
-              >vandiemennahum@gmail.com</a
-            >
-          </dd>
-          <a href="https://github.com/Naykayvd">          
-            <button class="my-links">
+<body>
+  <!-- navigation bar -->
+
+  <nav class="navbar">
+    <ul class="navbar-container">
+      <div class="nav-nav">
+        <li>
+          <a href="#about_me" class="nav-link">About Me</a>
+        </li>
+        <li>
+          <a href="#work_experience" class="nav-link">Work Experience</a>
+        </li>
+        <li>
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li>
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </div>
+    </ul>
+    <button class="list-button" onclick="toggleNav()"><i class="fas fa-bars"></i></button>
+  </nav>
+  <div class="landing">
+    <img class="img-of-me" src="" height="600" width="400" alt="image of me" />
+    <!-- My profile -->
+    <div>
+      <p class="profile-name">Nahum <span class="p-j-c">Van Diemen</span></p>
+      <p class="profile-job">Aspiring Full <span class="p-j-c">Stack Developer</span></p>
+      <dl class="profile-details">
+        <dt>Date of birth:</dt>
+        <dd>21 October 1998</dd>
+        <dt>Languages:</dt>
+        <dd>English, Afrikaans</dd>
+        <dt>Address</dt>
+        <dd>Mitchells plain, Cape Town, 7798</dd>
+        <dt>Drivers License:</dt>
+        <dd>Code 8</dd>
+        <dt>Phone:</dt>
+        <dd><a class="phone" href="tel:0723955815">0723955815</a></dd>
+        <dt>Email:</dt>
+        <dd>
+          <a class="email" href="mailto:vandiemennahum@gmail.com">vandiemennahum@gmail.com</a>
+        </dd>
+        <a href="https://github.com/Naykayvd">
+          <button class="my-links">
             <i class="fab fa-github"></i>
           </button>
-          </a>
+        </a>
+        <button class="my-links">
+          <i class="fab fa-linkedin"></i>
+          <a href=""></a>
+        </button>
+        <a href="https://codepen.io/naykayvd">
           <button class="my-links">
-            <i class="fab fa-linkedin"></i>
-            <a href=""></a>
+            <i class="fab fa-codepen"></i>
           </button>
-          <a href="https://codepen.io/naykayvd">
-            <button class="my-links">
-              <i class="fab fa-codepen"></i>
-            </button>
-          </a>
-        </dl>
-      </div>
+        </a>
+      </dl>
     </div>
-    <!-- The about me section -->
-    <div class="bio" id="about_me">
-      <span class="line1"></span>
-      <div class="bio-text-container">
-        <h2 class="bio-heading">About me</h2>
-        <p class="bio-text1">
-          I am an aspiring Junior Web Developer, based in Cape Town. I am always learning and striving to improve daily life through technology. 
-        </p>
-        <p class="bio-text2">
-          My passion for the tech industry began with playing video games and from there it trickled down to following the latest tech trends and keeping up with current devices. I also have an  appreciation for legacy devices that have paved the way for future advancements
-        </p>
-        <p class="bio-text3">
-          My hobbies include music; I play piano, I enjoy playing video games and trying new things. I challenge myself to get out of my comfort zone.
-        </p>
-      </div>
-      <span class="line2"></span>
+  </div>
+  <!-- The about me section -->
+  <div class="bio" id="about_me">
+    <span class="line1"></span>
+    <div class="bio-text-container">
+      <h2 class="bio-heading">About me</h2>
+      <p class="bio-text1">
+        I am an aspiring Junior Web Developer, based in Cape Town. I am always learning and striving to improve daily
+        life through technology.
+      </p>
+      <p class="bio-text2">
+        My passion for the tech industry began with playing video games and from there it trickled down to following the
+        latest tech trends and keeping up with current devices. I also have an appreciation for legacy devices that have
+        paved the way for future advancements
+      </p>
+      <p class="bio-text3">
+        My hobbies include music; I play piano, I enjoy playing video games and trying new things. I challenge myself to
+        get out of my comfort zone.
+      </p>
     </div>
-    <!-- Work experience section -->
-    <div class="bio" id="work_experience">
-      <span class="line3"></span>
-      <div class="bio-text-container">
-        <h1>Work Experience</h1>
-        <h2 class="company">
-          Company Name:
-          <span class="company-name">Bytes people Solutions</span>
-        </h2>
-        <h3>Position held: <span>Technical support</span></h3>
-        <h4 class="year">2019-2020</h4>
-        <p>
-          I completed a Technical support learnership through the company, 4
-          months of class work and 8 months of work experince.
-        </p>
-        <h2 class="company">
-          Company Name: <span class="company-name">Life choices academy</span>
-        </h2>
-        <h3>Position held: <span>Student</span></h3>
-        <h4 class="year">2021-current</h4>
-        <p>
-          I am currently doing a coding and web development course at life
-          choices academy which includes 6 months of class work and 6 months
-          work experience
-        </p>
-      </div>
-      <span class="line4"></span>
+    <span class="line2"></span>
+  </div>
+  <!-- Work experience section -->
+  <div class="bio" id="work_experience">
+    <span class="line3"></span>
+    <div class="bio-text-container">
+      <h1>Work Experience</h1>
+      <h2 class="company">
+        Company Name:
+        <span class="company-name">Bytes people Solutions</span>
+      </h2>
+      <h3>Position held: <span>Technical support</span></h3>
+      <h4 class="year">2019-2020</h4>
+      <p>
+        I completed a Technical support learnership through the company, 4
+        months of class work and 8 months of work experince.
+      </p>
+      <h2 class="company">
+        Company Name: <span class="company-name">Life choices academy</span>
+      </h2>
+      <h3>Position held: <span>Student</span></h3>
+      <h4 class="year">2021-current</h4>
+      <p>
+        I am currently doing a coding and web development course at life
+        choices academy which includes 6 months of class work and 6 months
+        work experience
+      </p>
     </div>
+    <span class="line4"></span>
+  </div>
 
-    <!-- skills section-->
+  <!-- skills section-->
 
-    <div id="skills"></div>
-    <div class="skills-container">
-      <h1>Skills</h1>
-      <h2 class="skills-heading">My skills include:</h2>
-      <div class="skill-icons">
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-python"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-js-square"></i>
+  <div id="skills"></div>
+  <div class="skills-container">
+    <h1>Skills</h1>
+    <h2 class="skills-heading">My skills include:</h2>
+    <div class="skill-icons">
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-python"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-js-square"></i>
+    </div>
+  </div>
+  <!-- projects section -->
+  <div id="projects"></div>
+  <h1 class="project-heading">Projects</h1>
+  <div class="projects-container">
+    <div class="project-card">
+      <div class="card">
+        <img class="project-image" src="css/images/bmi-converter.png" alt="an image of the bmi converter" />
+        <h2>BMI Converter</h2>
+        <p class="project-text">
+          A programme that takes your weight, age, height and gender as input
+          and outputs your BMI and your ideal BMI
+        </p>
+        <href href="https://github.com/Naykayvd/tkinter-BMI-calculator"><button class="project-button">Github</button>
+        </href>
+        <a href="https://replit.com/@Naykayvd/BMI-converter"><button class="project-button">Replit</button></a>
+      </div>
+      <div class="card">
+        <h2>Contact Form</h2>
+        <img class="project-image" src="css/images/contact form.png" alt="an image of my contact form website" />
+        <p class="project-text">A simple contact form website</p>
+        <a href="https://github.com/Naykayvd/html-contact_forms"><button class="project-button">Github</button></a>
+        <a href="https://confident-cori-e1e7c8.netlify.app/"><button class="project-button">Live</button></a>
+      </div>
+      <div class="card">
+        <h2>Timeline site</h2>
+        <img class="project-image" src="css/images/timeline.png" alt="an image of my pop-in-out animation website" />
+        <p class="project-text">
+          While learning web development I was trying out pop-in pop-out
+          animations and made this simple website
+        </p>
+        <a href="https://github.com/Naykayvd/html-css--timeline"><button class="project-button">Github</button></a>
+        <a href="https://sleepy-easley-712209.netlify.app/"><button class="project-button">Live</button></a>
+      </div>
+      <div class="card4">
+        <h2>Slider animation site</h2>
+        <img class="project-image" src="css/images/testimonial.png" alt="an image of my slider website" />
+        <p class="project-text">
+          I was learning animations and decided to try out slider animation
+        </p>
+        <a href="https://github.com/Naykayvd/HTML-Testimonial-sliders"><button
+            class="project-button">Github</button></a>
+        <a href="https://naughty-villani-0c2706.netlify.app"><button class="project-button">Live</button></a>
+      </div>
+      <div>
+        <h2>Easy Ticket task</h2>
+        <img class="project-image" src="" alt="image of easy ticket">
+        <p class="project-text">A ticket purchase programme that takes in ammount of money, ticket quantity and prints
+          out total amount</p>
+        <a href="https://github.com/Naykayvd/Easy-Ticket"><button>Github</button></a>
+        <a href="https://replit.com/@Naykayvd/easy-ticket#main.py"><button>Replit</button></a>
       </div>
     </div>
-    <!-- projects section -->
-    <div id="projects"></div>
-    <h1 class="project-heading">Projects</h1>
-    <div class="projects-container">
-      <div class="project-card">
-        <div class="card">
-          <img
-            class="project-image"
-            src="css/images/bmi-converter.png"
-            alt="an image of the bmi converter"
-          />
-          <h2>BMI Converter</h2>
-          <p class="project-text">
-            A programme that takes your weight, age, height and gender as input
-            and outputs your BMI and your ideal BMI
-          </p>
-          <href href="https://github.com/Naykayvd/tkinter-BMI-calculator"
-            ><button class="project-button">Github</button></href
-          >
-          <a href="https://replit.com/@Naykayvd/BMI-converter"
-            ><button class="project-button">Replit</button></a
-          >
-        </div>
-        <div class="card">
-          <h2>Contact Form</h2>
-          <p class="project-text">A simple contact form website</p>
-          <img
-            class="project-image"
-            src="css/images/contact form.png"
-            alt="an image of my contact form website"
-          />
-          <a href="https://github.com/Naykayvd/html-contact_forms"
-            ><button class="project-button">Github</button></a
-          >
-          <a href="https://confident-cori-e1e7c8.netlify.app/"
-            ><button class="project-button">Live</button></a
-          >
-        </div>
-        <div class="card">
-          <h2>Timeline site</h2>
-          <p class="project-text">
-            While learning web development I was trying out pop-in pop-out
-            animations and made this simple website
-          </p>
-          <img
-            class="project-image"
-            src="css/images/timeline.png"
-            alt="an image of my pop-in-out animation website"
-          />
-          <a href="https://github.com/Naykayvd/html-css--timeline"
-            ><button class="project-button">Github</button></a
-          >
-          <a href="https://sleepy-easley-712209.netlify.app/"
-            ><button class="project-button">Live</button></a
-          >
-        </div>
-        <div class="card4">
-          <h2>Slider animation site</h2>
-          <p class="project-text">
-            I was learning animations and decided to try out slider animation
-          </p>
-          <img
-            class="project-image"
-            src="css/images/testimonial.png"
-            alt="an image of my slider website"
-          />
-          <a href="https://github.com/Naykayvd/HTML-Testimonial-sliders"
-            ><button class="project-button">Github</button></a
-          >
-          <a href="https://naughty-villani-0c2706.netlify.app"
-            ><button class="project-button">Live</button></a
-          >
+    <!-- testimonials -->
+    <div id="testimonials"></div>
+    <h1 class="testimonial-heading">Testimonials</h1>
+    <div class="slider-container owl-carousel">
+      <div class="slider">
+        <div class="witness-name">Godwin Dzvapatsva</div>
+        <div class="witness-title">Head of Curriculum and Learning</div>
+        <q class="testimonial-text">
+          Based on the time that I have known Nahum, he will measure up to
+          high organisational expectations. Nahum has shown strong passion in
+          front-end development.</q>
+      </div>
+      <div class="slider">
+        <div class="witness-name">Abdur-Razaaq Jardien</div>
+        <div class="witness-title">Classmate</div>
+        <q class="testimonial-text">
+          Nahum is one of the most eager and enthusiastic people I know. He
+          puts his best into any task that needs to be accomplished and always
+          finishes each task with his boundless enthusiasm. He is an excellent
+          peer and is guaranteed to succeed in all of his
+          ventures.</q>
+      </div>
+      <div class="slider">
+        <div class="witness-name">Brent Lee Johnson</div>
+        <div class="witness-title">Classmate</div>
+        <q class="testimonial-text">Once you get to know Nahum, you will come to realise
+          how hard-working he is in terms of his work and his passion. Even if
+          he falls behind, he will come back the next day with double the
+          effort put in. I enjoyed having him work by my side giving me help
+          when he saw it necessary.</q>
+      </div>
+      <div class="slider">
+        <div class="witness-name">Thapelo Tsotetsi</div>
+        <div class="witness-title">Back-end Lecturer</div>
+        <q class="testimonial-text">Nahum is an incredible student. He’s enthusiasm and ability to
+          learn new technologies is amazing. He has very good communication
+          skills. He always know when to ask questions especially when the
+          user requirements are not clear. He has very good intellectual
+          skills.</q>
+      </div>
+      <div class="slider">
+        <div class="witness-name">Naeemah Davis</div>
+        <div class="witness-title">Classmate</div>
+        <q class="testimonial-text">Nahum is a talented individual. Devoted student and a delight to
+          work with in every aspect of the word. Definitely a benefit in any
+          environment.</q>
+      </div>
+    </div>
+    <!-- Contact form -->
+
+    <div class="get-in-touch-details">
+      <div class="contact-details">
+        <h1 id="contact-heading">Get in touch</h1>
+        <dt>Phone:</dt>
+        <dd><a class="phone" href="tel:0723955815">0723955815</a></dd>
+        <dt>Email:</dt>
+        <dd>
+          <a class="email" href="mailto:vandiemennahum@gmail.com">vandiemennahum@gmail.com</a>
+        </dd>
+      </div>
+      <form action="https://formspree.io/f/xdoykbkd" method="POST" id="contact">
+        <h2 class="form-heading">Or write me a letter here</h2>
+        <div>
+          <label class="contact-label">Name</label>
+          <input class="contact-input" type="name" name="name" placeholder="Name" required />
         </div>
         <div>
-          <h2>Easy Ticket task</h2>
-          <p class="project-text">A ticket purchase programme that takes in ammount of money, ticket quantity and prints out total amount</p>
-          <img class="project-image" src="" alt="image of easy ticket">
-          <a href="https://github.com/Naykayvd/Easy-Ticket"><button>Github</button></a>
-          <a href="https://replit.com/@Naykayvd/easy-ticket#main.py"><button>Replit</button></a>
+          <label class="contact-label">Email</label>
+          <input class="contact-input" type="email" name="email" placeholder="YourName@domain.com" required />
         </div>
-
-      </div>
-      <!-- testimonials -->
-      <div id="testimonials"></div>
-        <h1 class="testimonial-heading">Testimonials</h1>
-        <div class="slider-container owl-carousel">
-          <div class="slider">
-            <div class="witness-name">Godwin Dzvapatsva</div>
-            <div class="witness-title">Head of Curriculum and Learning</div>
-            <q class="testimonial-text">
-              Based on the time that I have known Nahum, he will measure up to
-              high organisational expectations. Nahum has shown strong passion in
-              front-end development.</q
-            >
-          </div>
-          <div class="slider">
-            <div class="witness-name">Abdur-Razaaq Jardien</div>
-            <div class="witness-title">Classmate</div>
-            <q class="testimonial-text">
-              Nahum is one of the most eager and enthusiastic people I know. He
-              puts his best into any task that needs to be accomplished and always
-              finishes each task with his boundless enthusiasm. He is an excellent
-              peer and is guaranteed to succeed in all of his
-              ventures.</q
-            >
-          </div>
-          <div class="slider">
-            <div class="witness-name">Brent Lee Johnson</div>
-            <div class="witness-title">Classmate</div>
-            <q class="testimonial-text"
-              >Once you get to know Nahum, you will come to realise
-              how hard-working he is in terms of his work and his passion. Even if
-              he falls behind, he will come back the next day with double the
-              effort put in. I enjoyed having him work by my side giving me help
-              when he saw it necessary.</q
-            >
-          </div>
-          <div class="slider">
-            <div class="witness-name">Thapelo Tsotetsi</div>
-            <div class="witness-title">Back-end Lecturer</div>
-            <q class="testimonial-text"
-              >Nahum is an incredible student. He’s enthusiasm and ability to
-              learn new technologies is amazing. He has very good communication
-              skills. He always know when to ask questions especially when the
-              user requirements are not clear. He has very good intellectual
-              skills.</q
-            >
-          </div>
-          <div class="slider">
-            <div class="witness-name">Naeemah Davis</div>
-            <div class="witness-title">Classmate</div>
-            <q class="testimonial-text"
-              >Nahum is a talented individual. Devoted student and a delight to
-              work with in every aspect of the word. Definitely a benefit in any
-              environment.</q
-              >
-            </div>
+        <div>
+          <label class="contact-label">Your Message</label>
+          <textarea name="message" id="contact-text" class="contact-input"
+            placeholder="Type your message here"></textarea>
         </div>
-      <!-- Contact form -->
-
-      <div class="get-in-touch-details">
-        <div class="contact-details">
-          <h1 id="contact-heading">Get in touch</h1>
-          <dt>Phone:</dt>
-          <dd><a class="phone" href="tel:0723955815">0723955815</a></dd>
-          <dt>Email:</dt>
-          <dd>
-            <a class="email" href="mailto:vandiemennahum@gmail.com"
-              >vandiemennahum@gmail.com</a
-            >
-          </dd>
-        </div>
-        <form
-          action="https://formspree.io/f/xdoykbkd"
-          method="POST"
-          id="contact"
-        >
-          <h2 class="form-heading">Or write me a letter here</h2>
-          <div>
-            <label class="contact-label">Name</label>
-            <input
-              class="contact-input"
-              type="name"
-              name="name"
-              placeholder="Name"
-              required
-            />
-          </div>
-          <div>
-            <label class="contact-label">Email</label>
-            <input
-              class="contact-input"
-              type="email"
-              name="email"
-              placeholder="YourName@domain.com"
-              required
-            />
-          </div>
-          <div>
-            <label class="contact-label">Your Message</label>
-            <textarea
-              name="message"
-              id="contact-text"
-              class="contact-input"
-              placeholder="Type your message here"
-            ></textarea>
-          </div>
-          <button class="send-button" type="submit">Send</button>
-        </form>
-      </div>
-      <footer class="footer">Made by Nahum Van Diemen</footer>
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-    crossorigin="anonymous"
-  ></script>
-  <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        <button class="send-button" type="submit">Send</button>
+      </form>
+    </div>
+    <footer class="footer">Made by Nahum Van Diemen</footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
@@ -377,5 +302,6 @@
       });
     </script>
     <script src="animation.js"></script>
-  </body>
+</body>
+
 </html>
