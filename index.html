@@ -71,8 +71,8 @@
         <p class="profile-name">Nahum <span class="p-j-c">Van Diemen</span></p>
         <p class="profile-job">Aspiring Full <span class="p-j-c">Stack Developer</span></p>
         <dl class="profile-details">
-          <dt>Age:</dt>
-          <dd>22</dd>
+          <dt>Date of birth:</dt>
+          <dd>21 October 1998</dd>
           <dt>Languages:</dt>
           <dd>English, Afrikaans</dd>
           <dt>Address</dt>
@@ -249,7 +249,7 @@
       <div id="testimonials"></div>
         <h1 class="testimonial-heading">Testimonials</h1>
         <div class="slider-container owl-carousel">
-          <div class="slider fade">
+          <div class="slider">
             <div class="witness-name">Godwin Dzvapatsva</div>
             <div class="witness-title">Head of Curriculum and Learning</div>
             <q class="testimonial-text">
@@ -258,7 +258,7 @@
               front-end development.</q
             >
           </div>
-          <div class="slider fade">
+          <div class="slider">
             <div class="witness-name">Abdur-Razaaq Jardien</div>
             <div class="witness-title">Classmate</div>
             <q class="testimonial-text">
@@ -269,45 +269,37 @@
               ventures.</q
             >
           </div>
-          <div class="slider fade">
+          <div class="slider">
             <div class="witness-name">Brent Lee Johnson</div>
             <div class="witness-title">Classmate</div>
             <q class="testimonial-text"
-              >Nahum's judge of character will seem unique to others at first
-              sight, however, once you get to know him you will come to realise
+              >Once you get to know Nahum, you will come to realise
               how hard-working he is in terms of his work and his passion. Even if
               he falls behind, he will come back the next day with double the
               effort put in. I enjoyed having him work by my side giving me help
-              when he saw it necessary. Hats off to him.-Brent(classmate)</q
+              when he saw it necessary.</q
             >
           </div>
-          <div class="slider fade">
+          <div class="slider">
             <div class="witness-name">Thapelo Tsotetsi</div>
+            <div class="witness-title">Back-end Lecturer</div>
             <q class="testimonial-text"
               >Nahum is an incredible student. He’s enthusiasm and ability to
               learn new technologies is amazing. He has very good communication
               skills. He always know when to ask questions especially when the
               user requirements are not clear. He has very good intellectual
-              skills.-Thapelo(Back-end Lecturer)</q
+              skills.</q
             >
           </div>
-          <div class="slider fade">
+          <div class="slider">
             <div class="witness-name">Naeemah Davis</div>
+            <div class="witness-title">Classmate</div>
             <q class="testimonial-text"
               >Nahum is a talented individual. Devoted student and a delight to
               work with in every aspect of the word. Definitely a benefit in any
-              environment.-Naeemah(classmate)</q
+              environment.</q
               >
             </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <div>
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-          <span class="dot" onclick="currentSlide(5)"></span>
         </div>
       <!-- Contact form -->
 
@@ -361,12 +353,29 @@
           <button class="send-button" type="submit">Send</button>
         </form>
       </div>
+      <footer class="footer">Made by Nahum Van Diemen</footer>
     <script
     src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
     integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
     crossorigin="anonymous"
   ></script>
+  <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
     <script src="animation.js"></script>
-    <footer class="footer">Made by Nahum Van Diemen</footer>
   </body>
 </html>

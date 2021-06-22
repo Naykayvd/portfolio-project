@@ -9,6 +9,7 @@
   padding: 50px 50px 40px 30px;
   display: flex;
   justify-content: space-around;
+  flex-direction: row ;
 }
 
 .project-image {
