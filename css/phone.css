@@ -1,4 +1,10 @@
 @media screen and (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .img-of-me {
     display: none;
   }
@@ -53,7 +59,7 @@
   .slider {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 66vh;
     width: 55vw;
   }
   .testimonial-text {
@@ -62,6 +68,16 @@
     justify-content: center;
     margin-left: 55px;
   }
+
+  .witness-name{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .witness-title {
+    margin-left: 10px;
+  }
+
   .get-in-touch-details {
     display: flex;
     flex-direction: column;
