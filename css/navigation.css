@@ -13,7 +13,15 @@ body {
   text-align: right;
   display: flex;
   justify-content: space-between;
-  background-color: #6d56c1;
+  background: linear-gradient(
+      45deg,
+      rgba(110, 87, 193, 0.9) 0%,
+      rgba(195, 148, 148, 0.9) 100%
+    ),
+    url(images/img_bg_main.jpg) no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .navbar {
