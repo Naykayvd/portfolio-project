@@ -7,8 +7,8 @@
 .slider {
   background: linear-gradient(
       45deg,
-      rgba(110, 87, 193, 0.9) 0%,
-      rgba(195, 148, 148, 0.9) 100%
+      #6e57c1e6 0%,
+      #c39494e6 100%
     ),
     url(images/img_bg_main.jpg) no-repeat;
   background-size: cover;
