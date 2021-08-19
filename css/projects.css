@@ -4,58 +4,47 @@
   box-sizing: border-box;
 }
 
-.card {
+.project-card {
   margin-left: 94px;
   margin-right: 76px;
   border: 2px solid #f1f1f1;
   padding: 50px 50px 40px 30px;
   display: flex;
   justify-content: flex-start;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 50px;
 }
 
-.card:hover {
-  box-shadow: 8px #8c8c8c;
+.project-card:hover {
+  box-shadow: 8px solid #8c8c8c;
 }
 
-.project-image {
-  max-width: 600px;
-  max-height: 600px;
-  object-fit: cover;
-  border-style: none;
-  vertical-align: middle;
-  align-items: flex-start;
-}
-
-.project-card-details {
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
-}
-
-.project-heading {
-  margin-top: 200px;
-  margin-left: 94px;
-}
-
-.project-buttons {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  align-items: flex-end;
-}
-
-.button-link{
-  background: rgba( 153, 0, 213, 0.35 );
-  border-radius: 10px;
-  border: 3px solid rgba(0, 0, 0, 0.18);
+.project_button {
+  border: 2px solid #f1f1f1;
+  border-radius: 3px;
+  width: 70px;
   padding: 5px;
-  margin-right: 5px;
+  margin: 3px;
+  text-decoration: none;
+  box-shadow: #8c8c8c;
+  color: rgb(107, 107, 107);
 }
 
-.button-link:hover {
-  font-weight: bold;
-  background-color: #ff6347;
+.project_button:hover{
+  border: 2px solid #f1f1f1;
+  box-shadow: 30px solid #444444;
+}
+
+.filter_btn {
+  border: none;
+  background: none;
+  color: rgb(107, 107, 107);
+  font-size: 1.2em;
+  margin-right: 8px;
+}
+
+.filter_btn:hover {
+  color: #6d56c1;
+  transition: ease-in-out 0.5s;
   cursor: pointer;
 }
