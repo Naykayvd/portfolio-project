@@ -48,3 +48,12 @@
   transition: ease-in-out 0.5s;
   cursor: pointer;
 }
+
+.filter_button_container {
+  margin-left: 94px;
+}
+
+.project-heading {
+  margin-left: 94px;
+  margin-top: 200px;
+}
